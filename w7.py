@@ -1,4 +1,3 @@
-
 import random
 import string
 
@@ -13,7 +12,6 @@ def simpleFuzzer(a, b):
         print(f"Input: ({a!r}, {b!r}) -> Result: {result}")
     except Exception as error:
         print(f"Input: ({a!r}, {b!r}) -> {type(error).__name__}: {error}")
-
 
 
 def generateInput():
@@ -39,23 +37,7 @@ def generateInput():
 
 
 if __name__ == '__main__':
-    test_cases = [
-        ("hello", 2),
-        (10, "hello"),
-        ([], 10),
-        (10, []),
-        (None, 2),
-        (10, None),
-        ({}, 2),
-        (2, {}),
-        (10, 0),
-        (0, 0),
-        ("3.14", 2),
-        (True, "2"),
-        ([1, 2], [3, 4]),
-        ("", 1),
-        (1, ""),
-    ]
-
-    for a, b in test_cases:
+    for _ in range(30):
+        a = generateInput()
+        b = generateInput()
         simpleFuzzer(a, b)
