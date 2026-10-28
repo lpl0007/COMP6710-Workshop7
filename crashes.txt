@@ -1,4 +1,4 @@
-Input: ('fdZH', '2WR9AswIcc') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Input: ('p', 'Vz8O4a') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
 Input: (10, 0) -> ZeroDivisionError: division by zero
 Input: (<int: could not format (ValueError)>, 1) -> OverflowError: integer division result too large for a float
 Input: (Decimal('1'), Decimal('0')) -> DivisionByZero: [<class 'decimal.DivisionByZero'>]
