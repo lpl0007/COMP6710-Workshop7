@@ -1,0 +1,10 @@
+Input: ('hello', 2) -> TypeError: unsupported operand type(s) for /: 'str' and 'int'
+Input: (10, 'hello') -> TypeError: unsupported operand type(s) for /: 'int' and 'str'
+Input: ([], 10) -> TypeError: unsupported operand type(s) for /: 'list' and 'int'
+Input: (10, []) -> TypeError: unsupported operand type(s) for /: 'int' and 'list'
+Input: (None, 2) -> TypeError: unsupported operand type(s) for /: 'NoneType' and 'int'
+Input: (10, None) -> TypeError: unsupported operand type(s) for /: 'int' and 'NoneType'
+Input: ({}, 2) -> TypeError: unsupported operand type(s) for /: 'dict' and 'int'
+Input: (2, {}) -> TypeError: unsupported operand type(s) for /: 'int' and 'dict'
+Input: (10, 0) -> ZeroDivisionError: division by zero
+Input: (0, 0) -> ZeroDivisionError: division by zero
