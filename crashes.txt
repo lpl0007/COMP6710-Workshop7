@@ -1,17 +1,10 @@
-Input: ('8KFikz4Ym2', 'nz5QJ') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
-Input: ('abc', 'def') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Input: ('cpFit7f', 'dSymYM22i') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Input: ('ydM', 'kf') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Input: ('ZFvL4S', 'iAqkrZUkKg') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Input: ('hEWOKzs', 'wnAfeOT') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Input: ('VAGkfJ8', 'wbU8ownn') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
+Input: ('Z', 'Ri7NIY7y') -> TypeError: unsupported operand type(s) for /: 'str' and 'str'
 Input: (10, 0) -> ZeroDivisionError: division by zero
-Input: (0, 0) -> ZeroDivisionError: division by zero
 Input: (None, 2) -> TypeError: unsupported operand type(s) for /: 'NoneType' and 'int'
 Input: ([], 2) -> TypeError: unsupported operand type(s) for /: 'list' and 'int'
 Input: ({}, 2) -> TypeError: unsupported operand type(s) for /: 'dict' and 'int'
-Input: (True, False) -> ZeroDivisionError: division by zero
-Input: (<int value>, 1) -> OverflowError: integer division result too large for a float
-Input: (Decimal('1'), Decimal('0')) -> DivisionByZero: [<class 'decimal.DivisionByZero'>]
-Input: (Decimal('0'), Decimal('0')) -> InvalidOperation: [<class 'decimal.DivisionUndefined'>]
-Input: (Decimal('1E+9999999'), Decimal('1')) -> Overflow: [<class 'decimal.Overflow'>]
-Input: (Decimal('sNaN'), Decimal('1')) -> InvalidOperation: [<class 'decimal.InvalidOperation'>]
-Decimal signal test Inexact -> Inexact: [<class 'decimal.Inexact'>]
-Decimal signal test Rounded -> Rounded: [<class 'decimal.Rounded'>]
-Decimal signal test Subnormal -> Subnormal: [<class 'decimal.Subnormal'>]
-Decimal signal test Clamped -> Clamped: [<class 'decimal.Clamped'>]
